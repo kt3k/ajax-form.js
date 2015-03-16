@@ -1,4 +1,4 @@
-# ajax-form.js v0.1.0
+# ajax-form.js v0.1.1
 
 > Automatic `<form>` element which creates a ajax request according to the state of the inputs.
 > You don't need to write any JavaScript just for wiring your forms and apis.
