@@ -1,6 +1,6 @@
 # ajax-form.js v0.1.1
 
-> Automatic `<form>` element which creates a ajax request according to the state of the inputs.
+> Automatic `<form>` element which creates an ajax request according to the state of the inputs.
 > You don't need to write any JavaScript just for wiring your forms and apis.
 
 ***Note:*** This lib depends on jQuery and qwest.
