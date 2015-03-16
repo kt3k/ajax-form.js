@@ -47,13 +47,11 @@ This form creates `PUT` request to `/api/comments` with data `user=[user]` and `
 
 $(function () {
 
-    $('my-form').on('success.ajax-form', function () {
+    $('#my-form').on('success.ajax-form', function () {
 
         // some success handling
 
-    });
-
-    $('my-form').on('failure.ajax-form', function () {
+    }).on('failure.ajax-form', function () {
 
         // some failure handling
 
