@@ -5,6 +5,12 @@
 
 ***Note:*** This lib depends on jQuery and qwest.
 
+# Install
+
+```sh
+bower install --save ajax-form.js
+```
+
 
 # The markup
 
