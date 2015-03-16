@@ -101,7 +101,7 @@
     };
 
 
-    $(document).on('init.ajax-form', initAjaxForm);
+    $(document).on('init.ajax-form', initAjaxForms);
 
 
     $(function () {
