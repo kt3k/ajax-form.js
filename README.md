@@ -65,6 +65,22 @@ $(function () {
 ```
 
 
+## Manual initialization
+
+`.ajax-form` elements are automatically initialized at `$(document).ready`. If you want to create `.ajax-form` elements after that, you can intialize them manually by triggering `init.ajax-form` event on `document` object.
+
+```js
+
+createFormAsync().then(function () {
+
+    $(document).trigger('init.ajax-form');
+
+});
+
+```
+
+
+
 # Similar projects
 
 - https://github.com/incraigulous/jquery-ajax-form
