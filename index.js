@@ -19,6 +19,9 @@
             return;
         }
 
+        // mark init done
+        $(form).attr(ATTR_INITIALIZED, 'on');
+
         var initButton = function () {
 
             $('button', form).each(function () {
@@ -57,9 +60,12 @@
 
                         });
 
+                        var options = {
+                            timeout: 1e100,
+                            retries: 1
+                        };
 
-
-                        qwest[method](api, params).then(function (res) {
+                        qwest[method](api, params, options).then(function (res) {
 
                             $btn.trigger('success.ajax-form', res);
 
@@ -84,10 +90,6 @@
 
         // init the button
         initButton();
-
-
-        // mark init done
-        $(form).attr(ATTR_INITIALIZED, 'on');
 
     };
 
