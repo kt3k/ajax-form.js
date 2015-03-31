@@ -61,7 +61,7 @@
                         });
 
                         var options = {
-                            timeout: 1e100,
+                            timeout: 1e10,
                             retries: 1
                         };
 
