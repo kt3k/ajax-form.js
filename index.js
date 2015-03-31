@@ -1,5 +1,5 @@
 /**
- * ajax-form.js v0.1.3
+ * ajax-form.js v0.1.4
  * author: Yoshiya Hinosawa ( http://github.com/kt3k )
  * license: MIT
  */
